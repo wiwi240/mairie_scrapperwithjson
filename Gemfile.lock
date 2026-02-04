@@ -1,0 +1,183 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.8)
+      public_suffix (>= 2.0.2, < 8.0)
+    base64 (0.3.0)
+    csv (3.3.5)
+    date (3.5.1)
+    declarative (0.0.20)
+    faraday (1.10.4)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0)
+      faraday-multipart (~> 1.0)
+      faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.0)
+      faraday-patron (~> 1.0)
+      faraday-rack (~> 1.0)
+      faraday-retry (~> 1.0)
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.1)
+    faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
+    faraday-multipart (1.2.0)
+      multipart-post (~> 2.0)
+    faraday-net_http (1.0.2)
+    faraday-net_http_persistent (1.2.0)
+    faraday-patron (1.0.0)
+    faraday-rack (1.0.0)
+    faraday-retry (1.0.3)
+    google-apis-core (0.11.3)
+      addressable (~> 2.5, >= 2.5.1)
+      googleauth (>= 0.16.2, < 2.a)
+      httpclient (>= 2.8.1, < 3.a)
+      mini_mime (~> 1.0)
+      representable (~> 3.0)
+      retriable (>= 2.0, < 4.a)
+      rexml
+    google-apis-drive_v3 (0.46.0)
+      google-apis-core (>= 0.11.0, < 2.a)
+    google-apis-sheets_v4 (0.26.0)
+      google-apis-core (>= 0.11.0, < 2.a)
+    google_drive (3.0.7)
+      google-apis-drive_v3 (>= 0.5.0, < 1.0.0)
+      google-apis-sheets_v4 (>= 0.4.0, < 1.0.0)
+      googleauth (>= 0.5.0, < 1.0.0)
+      nokogiri (>= 1.5.3, < 2.0.0)
+    googleauth (0.17.1)
+      faraday (>= 0.17.3, < 2.0)
+      jwt (>= 1.4, < 3.0)
+      memoist (~> 0.16)
+      multi_json (~> 1.11)
+      os (>= 0.9, < 2.0)
+      signet (~> 0.15)
+    httpclient (2.9.0)
+      mutex_m
+    json (2.18.1)
+    jwt (2.10.2)
+      base64
+    memoist (0.16.2)
+    mini_mime (1.1.5)
+    multi_json (1.19.1)
+    multipart-post (2.4.1)
+    mutex_m (0.3.0)
+    nokogiri (1.19.0-aarch64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.19.0-aarch64-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.19.0-arm-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.19.0-arm-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.19.0-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.19.0-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.19.0-x86_64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.19.0-x86_64-linux-musl)
+      racc (~> 1.4)
+    open-uri (0.5.0)
+      stringio
+      time
+      uri
+    os (1.1.4)
+    public_suffix (7.0.2)
+    racc (1.8.1)
+    representable (3.2.0)
+      declarative (< 0.1.0)
+      trailblazer-option (>= 0.1.1, < 0.2.0)
+      uber (< 0.2.0)
+    retriable (3.1.2)
+    rexml (3.4.4)
+    ruby2_keywords (0.0.5)
+    signet (0.21.0)
+      addressable (~> 2.8)
+      faraday (>= 0.17.5, < 3.a)
+      jwt (>= 1.5, < 4.0)
+      multi_json (~> 1.10)
+    stringio (3.2.0)
+    time (0.4.2)
+      date
+    trailblazer-option (0.1.2)
+    uber (0.1.0)
+    uri (1.1.1)
+
+PLATFORMS
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
+
+DEPENDENCIES
+  csv
+  google_drive
+  json
+  nokogiri
+  open-uri
+
+CHECKSUMS
+  addressable (2.8.8) sha256=7c13b8f9536cf6364c03b9d417c19986019e28f7c00ac8132da4eb0fe393b057
+  base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
+  csv (3.3.5) sha256=6e5134ac3383ef728b7f02725d9872934f523cb40b961479f69cf3afa6c8e73f
+  date (3.5.1) sha256=750d06384d7b9c15d562c76291407d89e368dda4d4fff957eb94962d325a0dc0
+  declarative (0.0.20) sha256=8021dd6cb17ab2b61233c56903d3f5a259c5cf43c80ff332d447d395b17d9ff9
+  faraday (1.10.4) sha256=a384c541cde688d68bf85055723aecb4100c3fa41b53beb2011b245960ab2f19
+  faraday-em_http (1.0.0) sha256=7a3d4c7079789121054f57e08cd4ef7e40ad1549b63101f38c7093a9d6c59689
+  faraday-em_synchrony (1.0.1) sha256=bf3ce45dcf543088d319ab051f80985ea6d294930635b7a0b966563179f81750
+  faraday-excon (1.1.0) sha256=b055c842376734d7f74350fe8611542ae2000c5387348d9ba9708109d6e40940
+  faraday-httpclient (1.0.1) sha256=4c8ff1f0973ff835be8d043ef16aaf54f47f25b7578f6d916deee8399a04d33b
+  faraday-multipart (1.2.0) sha256=7d89a949693714176f612323ca13746a2ded204031a6ba528adee788694ef757
+  faraday-net_http (1.0.2) sha256=63992efea42c925a20818cf3c0830947948541fdcf345842755510d266e4c682
+  faraday-net_http_persistent (1.2.0) sha256=0b0cbc8f03dab943c3e1cc58d8b7beb142d9df068b39c718cd83e39260348335
+  faraday-patron (1.0.0) sha256=dc2cd7b340bb3cc8e36bcb9e6e7eff43d134b6d526d5f3429c7a7680ddd38fa7
+  faraday-rack (1.0.0) sha256=ef60ec969a2bb95b8dbf24400155aee64a00fc8ba6c6a4d3968562bcc92328c0
+  faraday-retry (1.0.3) sha256=add154f4f399243cbe070806ed41b96906942e7f5259bb1fe6daf2ec8f497194
+  google-apis-core (0.11.3) sha256=43217013b129d7d52c31ebf94146646c55f463ed25e68ad7523fb644d5a9cc97
+  google-apis-drive_v3 (0.46.0) sha256=9d8b7e0268bfda445f1a5f7edeb6c6295e8ca050a74daf5677ae84e17e881800
+  google-apis-sheets_v4 (0.26.0) sha256=174c91aa7bdade339345c9ba6a115aceb7907c1350e899304c84d10689699925
+  google_drive (3.0.7) sha256=68da75f5bfac109f66912db735844327446ab682ef279e9e93ec038ce4468549
+  googleauth (0.17.1) sha256=d4a9cbce0d6b5fbb9e6f8e42c18ab44ea38594757952d94706461dabc4c28922
+  httpclient (2.9.0) sha256=4b645958e494b2f86c2f8a2f304c959baa273a310e77a2931ddb986d83e498c8
+  json (2.18.1) sha256=fe112755501b8d0466b5ada6cf50c8c3f41e897fa128ac5d263ec09eedc9f986
+  jwt (2.10.2) sha256=31e1ee46f7359883d5e622446969fe9c118c3da87a0b1dca765ce269c3a0c4f4
+  memoist (0.16.2) sha256=a52c53a3f25b5875151670b2f3fd44388633486dc0f09f9a7150ead1e3bf3c45
+  mini_mime (1.1.5) sha256=8681b7e2e4215f2a159f9400b5816d85e9d8c6c6b491e96a12797e798f8bccef
+  multi_json (1.19.1) sha256=7aefeff8f2c854bf739931a238e4aea64592845e0c0395c8a7d2eea7fdd631b7
+  multipart-post (2.4.1) sha256=9872d03a8e552020ca096adadbf5e3cb1cd1cdd6acd3c161136b8a5737cdb4a8
+  mutex_m (0.3.0) sha256=cfcb04ac16b69c4813777022fdceda24e9f798e48092a2b817eb4c0a782b0751
+  nokogiri (1.19.0-aarch64-linux-gnu) sha256=11a97ecc3c0e7e5edcf395720b10860ef493b768f6aa80c539573530bc933767
+  nokogiri (1.19.0-aarch64-linux-musl) sha256=eb70507f5e01bc23dad9b8dbec2b36ad0e61d227b42d292835020ff754fb7ba9
+  nokogiri (1.19.0-arm-linux-gnu) sha256=572a259026b2c8b7c161fdb6469fa2d0edd2b61cd599db4bbda93289abefbfe5
+  nokogiri (1.19.0-arm-linux-musl) sha256=23ed90922f1a38aed555d3de4d058e90850c731c5b756d191b3dc8055948e73c
+  nokogiri (1.19.0-arm64-darwin) sha256=0811dfd936d5f6dd3f6d32ef790568bf29b2b7bead9ba68866847b33c9cf5810
+  nokogiri (1.19.0-x86_64-darwin) sha256=1dad56220b603a8edb9750cd95798bffa2b8dd9dd9aa47f664009ee5b43e3067
+  nokogiri (1.19.0-x86_64-linux-gnu) sha256=f482b95c713d60031d48c44ce14562f8d2ce31e3a9e8dd0ccb131e9e5a68b58c
+  nokogiri (1.19.0-x86_64-linux-musl) sha256=1c4ca6b381622420073ce6043443af1d321e8ed93cc18b08e2666e5bd02ffae4
+  open-uri (0.5.0) sha256=7b4f06fdac39e6946aed15a8da82531580882fbbec80438adcb7c30d388887ca
+  os (1.1.4) sha256=57816d6a334e7bd6aed048f4b0308226c5fb027433b67d90a9ab435f35108d3f
+  public_suffix (7.0.2) sha256=9114090c8e4e7135c1fd0e7acfea33afaab38101884320c65aaa0ffb8e26a857
+  racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
+  representable (3.2.0) sha256=cc29bf7eebc31653586849371a43ffe36c60b54b0a6365b5f7d95ec34d1ebace
+  retriable (3.1.2) sha256=0a5a5d0ca4ba61a76fb31a17ab8f7f80281beb040c329d34dfc137a1398688e0
+  rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
+  ruby2_keywords (0.0.5) sha256=ffd13740c573b7301cf7a2e61fc857b2a8e3d3aff32545d6f8300d8bae10e3ef
+  signet (0.21.0) sha256=d617e9fbf24928280d39dcfefba9a0372d1c38187ffffd0a9283957a10a8cd5b
+  stringio (3.2.0) sha256=c37cb2e58b4ffbd33fe5cd948c05934af997b36e0b6ca6fdf43afa234cf222e1
+  time (0.4.2) sha256=f324e498c3bde9471d45a7d18f874c27980e9867aa5cfca61bebf52262bc3dab
+  trailblazer-option (0.1.2) sha256=20e4f12ea4e1f718c8007e7944ca21a329eee4eed9e0fa5dde6e8ad8ac4344a3
+  uber (0.1.0) sha256=5beeb407ff807b5db994f82fa9ee07cfceaa561dad8af20be880bc67eba935dc
+  uri (1.1.1) sha256=379fa58d27ffb1387eaada68c749d1426738bd0f654d812fcc07e7568f5c57c6
+
+RUBY VERSION
+  ruby 3.4.2
+
+BUNDLED WITH
+  4.0.5
